@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    class Vehicle(val name: String) {
+        inner class Engine(val horsePower: Int) {
+            fun start() {
+                println("RRRrrrrrrr....")
+            }
+
+            // create function printHorsePower()
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14728#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 15 Aug 2022 15:53:09 UTC
+record: -1

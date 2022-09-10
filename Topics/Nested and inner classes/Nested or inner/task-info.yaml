@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: These terms are synonymous
+- text: Nested classes include inner classes
+- text: Inner classes include nested classes
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14724#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 15 Aug 2022 15:28:20 UTC
+record: -1
+selected_options:
+- 1
+custom_name: Nested or inner?
+local_check: false
